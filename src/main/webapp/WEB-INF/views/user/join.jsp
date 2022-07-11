@@ -8,6 +8,6 @@
     <title></title>
 </head>
 <body>
-<p>join</p>
+
 </body>
 </html>
