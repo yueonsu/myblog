@@ -1,0 +1,27 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3308/myblog
+    username: root
+    password: koreait
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+mybatis:
+  mapper-locations: mappers/**/*.xml
+  type-aliases-package: com.myblog
