@@ -1,0 +1,12 @@
+.wrapper {
+    height: 100%;
+}
+
+.main-side-bar {
+    padding-right: 10px;
+    border-right: 1px solid gray;
+}
+
+.main-wrapper {
+    padding-left: 10px;
+}
