@@ -4,10 +4,10 @@
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 
-    <definition name="layout-tiles" template="/WEB-INF/tiles/layout.jsp">
-        <put-attribute name="header" value="/WEB-INF/tiles/header.jsp"/>
+    <definition name="layout-tiles" template="/WEB-INF/tiles/templetes/default-layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/tiles/fragments/header.jsp"/>
         <put-attribute name="body" value=""/>
-        <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/tiles/fragments/footer.jsp"/>
     </definition>
 
     <definition name="*" extends="layout-tiles">
