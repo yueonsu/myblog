@@ -1,0 +1,35 @@
+html, body { margin: 0; padding: 0; height: 100%;}
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo a {
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.header-user-info {
+    display: flex;
+    gap: 20px;
+}
+
+.header-user-info a {
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}

@@ -7,6 +7,18 @@
     <title></title>
 </head>
 <body>
-    <strong>로그인</strong>
+    <div>
+        <form action="/user/login" method="post">
+            <div>
+                <input type="text" name="uid" placeholder="User ID">
+            </div>
+            <div>
+                <input type="password" name="upw" placeholder="User Password">
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
